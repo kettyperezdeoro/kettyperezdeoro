@@ -105,7 +105,22 @@ header {
 /* styling page -- INDEX */
 
 .cuerpo {
+  
   background-color:  rgb(0, 43, 91);
+  display: grid;
+  height: 1200px;
+  background-color: white;
+
+  
+  grid-template-areas: 
+  "Fotos   fotos"
+  "contenido1    contenido2";
+
+ grid-template-columns: repeat(2, 1fr); 
+ grid-template-rows: 120px 1fr 120px;
+
+  font-family: 'Mukta', sans-serif;
+
 }
 
 .divprincipal {
