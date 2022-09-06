@@ -112,7 +112,7 @@ header {
 
 .divprincipal {
   display: flex;
-  height: 200px;
+  background-image: linear-gradient(40deg, blue, aqua 20% 80%, purple);
 }
 
 
